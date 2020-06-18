@@ -1,0 +1,443 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+
+/* --------------- Styles related to NAVBAR ---------------  */
+
+
+.navbar {
+  font-size: 16px;
+  font-style: helveticaneuew01-45ligh, helveticaneuew02-45ligh, helveticaneuew10-45ligh, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid #DDDDDD;
+}
+
+.navmenu {
+  display: flex;
+  align-items: center;
+
+}
+
+.wixlogo img {
+  cursor: pointer;
+  margin: 10px 25px;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {display: inline-block;}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  padding: 0 1rem;
+  color: black;
+}
+
+nav a:hover {color: #116DFF;}
+
+.signin {display: flex;}
+
+.language {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  font-style: helveticaneuew01-45ligh, helveticaneuew02-45ligh, helveticaneuew10-45ligh, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.15em;
+  cursor: pointer;
+}
+
+.language p {margin-left: 5px;}
+
+.language:hover {color: #116DFF;}
+
+.signin button {
+  font-size: 15px;
+  background-color: white;
+  color: #116DFF;
+  text-decoration: none;
+  border-radius: 40px;
+  height: 40px;
+  width: 128px;
+  border: 1px solid #116DFF;
+  margin-right: 50px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.signin button:hover {
+  background-color: #116DFF;
+  color: white;
+}
+
+
+/* --------------- END of NAVBAR styles ---------------  */
+
+/* --------------- Styles related to STRIPE #1 ---------------  */
+
+
+.stripe1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #FAFAFA;
+}
+
+.stripe1 h1 {
+  font-size: 96px;
+  line-height: 1em;
+  font-family: madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif;
+  font-weight: 400;
+  margin: 45px 0 10px 0;
+  padding: 0;
+}
+
+.stripe1 p {
+  font-size: 20px;
+  line-height: 1.5em;
+  font-family: madefor-text,helveticaneuew01-45ligh,helveticaneuew02-45ligh,helveticaneuew10-45ligh,sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.getstarted button {
+  background-color:#277AFE;
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+  border-radius: 40px;
+  height: 56px;
+  width: 194px;
+  border: none;
+  margin-top: 30px;
+  margin-bottom: 75px;
+  cursor: pointer;
+}
+
+
+/* --------------- END of STRIPE #1 styles ---------------  */
+
+/* --------------- Styles related to STRIPE #2 ---------------  */
+
+
+.stripe2 {
+  display: flex;
+  max-width: 100%;
+  background-color: #FAFAFA;
+  background: linear-gradient(#FAFAFA 82%, #14348e 18%);
+  }
+
+.img1 {
+  z-index: 1;
+  position: relative;
+  top: 80px;
+  left: 0px;
+}
+
+.img2 { 
+  z-index: 0;
+  position: relative;
+  left: -70px;
+}
+
+.img3 {
+  z-index: 1;
+  position: relative;
+  top: 20px;
+  left: -150px;
+}
+
+.img4 {
+  z-index: 1;
+  position: relative;
+  top: 90px;
+  left: -1170px;
+}
+
+.img5 {
+  z-index: 1;
+  position: relative;
+  top: 50px;
+  left: -542px;
+}
+
+
+/* --------------- END of STRIPE #2 styles ---------------  */
+
+/* --------------- Styles related to STRIPE #3 ---------------  */
+
+
+.stripe3 {
+  height: 430px;
+  display: flex;
+  background-color: #14348e;
+}
+
+.left3 {
+  width: 50%;
+}
+
+.right3 {
+  padding-top: 115px;
+}
+
+.left3 h2 {
+  font-size: 48px;
+  font-family: madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif;
+  line-height: 52.8px;
+  font-weight: 400;
+  color: white;
+  margin-top: 125px;
+  margin-left: 60px;
+}
+
+.right3 p {
+  font-size: 20px;
+  font-family: madefor-text,helveticaneuew01-45ligh,helveticaneuew02-45ligh,helveticaneuew10-45ligh,sans-serif;
+  letter-spacing: 0.01em;
+  line-height: 32px;
+  color: white;
+  margin-left: 40px;
+}
+
+.right3 a {
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 0em;
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+
+
+/* --------------- END of STRIPE #3 styles ---------------  */
+
+/* --------------- Styles related to STRIPE #4 ---------------  */
+
+
+.stripe4 {
+  display: flex;
+}
+
+.left4 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background-color: #035946;
+  color: white;
+}
+
+.left4-row1 {
+  align-self: center;
+  width: 78%;
+  margin-top: 130px;
+}
+
+.left4-row2 {
+  display: flex;
+  justify-content: center;
+}
+
+.left4-row3 {
+  display: flex;
+  justify-content: center;
+}
+
+.left4-row4 {
+  align-self: center;
+  width: 80%;
+  margin-bottom: 120px;
+}
+
+.left4-row2-l,
+.left4-row2-r,
+.left4-row3-l,
+.left4-row3-r {
+  width: 38%;
+  padding-bottom: 40px;
+}
+
+.left4-row2-l,
+.left4-row3-l {
+  margin-right: 10px;
+}
+
+.left4-row2-r,
+.left4-row3-r {
+  margin-left: 10px;
+}
+
+.left4-row2-l,
+.left4-row2-r {
+  border: 1px solid white;
+  border-style: solid none;
+}
+
+.left4-row1 h3 {
+  font-size: 48px;
+  margin: 0;
+  font-family: madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif;
+}
+
+.left4-row1 p {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 70px;
+  font-family: madefor-text,helveticaneuew01-45ligh,helveticaneuew02-45ligh,helveticaneuew10-45ligh,sans-serif;
+
+}
+
+.left4-row2 h5,
+.left4-row3 h5 {
+  font-size: 19px;
+  font-family: madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.left4-row2 p,
+.left4-row3 p {
+  font-size: 16px;
+  font-family: madefor-text,helveticaneuew01-45ligh,helveticaneuew02-45ligh,helveticaneuew10-45ligh,sans-serif;
+  line-height: 1.6em;
+}
+
+.left4 a {
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 0em;
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+
+.right4 {
+  width: 50%;
+  background-color: #F3F3F3;
+  text-align: center;
+}
+
+.right4 img {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+/* --------------- END of STRIPE #4 styles ---------------  */
+
+/* --------------- Styles related to STRIPE #5 ---------------  */
+
+
+.stripe5 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left5 {
+  width: 50%;
+  padding-right: 40px;
+  text-align: right;
+}
+
+.right5 {
+  width: 50%;
+  padding-left: 40px;
+}
+
+.left5 img {
+  margin-top: 144px;
+}
+
+.stripe5 h5 {
+  font-size: 48px;
+  font-family: madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif;
+  line-height: 1.1em;
+  margin-top: 160px;
+  margin-bottom: 40px;
+}
+
+.stripe5 p {
+  font-size: 20px;
+  line-height: 1.6em;
+  font-family: madefor-text,helveticaneuew01-45ligh,helveticaneuew02-45ligh,helveticaneuew10-45ligh,sans-serif;
+  width: 456px;
+}
+
+.stripe5 a {
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 0em;
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+
+.stripe5 a:hover{color: #116DFF;}
+
+
+/* --------------- END of STRIPE #5 styles ---------------  */
+
+/* --------------- Styles related to STRIPE #6 ---------------  */
+
+
+.stripe6 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left6 {
+  width: 47%;
+  padding-left: 150px;
+}
+
+.right6 {
+  width: 53%;
+}
+
+.stripe6 h5 {
+  font-size: 48px;
+  font-family: madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif;
+  line-height: 1.1em;
+  margin-top: 160px;
+  margin-bottom: 40px;
+}
+
+.stripe6 p {
+  font-size: 20px;
+  line-height: 1.6em;
+  font-family: madefor-text,helveticaneuew01-45ligh,helveticaneuew02-45ligh,helveticaneuew10-45ligh,sans-serif;
+  width: 446px;
+}
+
+.stripe6 a {
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 0em;
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+
+.stripe6 a:hover{color: #116DFF;}
+
+
+/* --------------- END of STRIPE #6 styles ---------------  */
